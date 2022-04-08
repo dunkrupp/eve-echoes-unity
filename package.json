@@ -1,7 +1,7 @@
 {
-  "name": "discord-boilerplate-ts",
+  "name": "eve-echoes-unity",
   "version": "1.0.0",
-  "description": "Discord Bot Boilerplate - TypeScript",
+  "description": "Eve Echoes Discord Bot - TypeScript",
   "main": "index.js",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
