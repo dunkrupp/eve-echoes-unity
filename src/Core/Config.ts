@@ -15,13 +15,15 @@ class Config {
 
   public get (): Env {
     return {
-      PREFIX: process.env.PREFIX,
-      TOKEN: process.env.TOKEN,
+      APP_ID: process.env.APP_ID,
       BOT_NAME: process.env.BOT_NAME,
       BOT_COLOR: process.env.BOT_COLOR,
       BOT_THUMBNAIL: process.env.BOT_THUMBNAIL,
       DB_TYPE: process.env.DB_TYPE,
-      DB_PATH: process.env.DB_PATH
+      DB_PATH: process.env.DB_PATH,
+      GUILD_ID: process.env.GUILD_ID,
+      PREFIX: process.env.PREFIX,
+      TOKEN: process.env.TOKEN,
     }
   }
 
