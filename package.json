@@ -1,0 +1,30 @@
+{
+  "name": "discord-boilerplate-ts",
+  "version": "1.0.0",
+  "description": "Discord Bot Boilerplate - TypeScript",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "better-sqlite3": "^7.5.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "discord-api-types": "^0.29.0",
+    "eslint": "^7.32.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "setup": "npm install && node ./setup/install.js",
+    "build": "tsc --pretty --project tsconfig.json",
+    "start": "ts-node ./src/main.ts"
+  },
+  "author": "Drew Ruppel <drewruppel@gmail.com>",
+  "license": "ISC"
+}
