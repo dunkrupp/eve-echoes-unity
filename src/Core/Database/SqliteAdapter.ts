@@ -1,12 +1,13 @@
 import Database from "better-sqlite3"
 import path from "path"
 
-class SqlLiteAdapter {
+class SqliteAdapter {
   private database
 
   constructor () {
     this.database = new Database(
-      path.resolve(__dirname)
+      // @todo: replace with a const
+      path.resolve(__dirname + '/../../../database/database.db')
     )
     // @todo: implement
   }
@@ -28,4 +29,4 @@ class SqlLiteAdapter {
   }
 }
 
-export default SqlLiteAdapter
+export default SqliteAdapter
