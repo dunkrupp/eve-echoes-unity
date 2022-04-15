@@ -1,0 +1,28 @@
+## Todo
+- [ ] Namespace everything
+- [ ] Wrap up Sqlite adapter
+- [ ] Implement Handlers for actions
+- [ ] Implement Services
+  - [ ] Donation Service
+  - [ ] Ship Order Service
+  - [ ] Channel Service
+- [ ] Implement App
+  - [ ] Set paths
+  - [ ] Bootstrap
+- [ ] Implement Container (reflection?)
+- [ ] Set Bot Information? (color, name, etc)
+- [ ] Organize Commands
+  - Move to database?
+
+- [ ] Design Database
+  - [ ] Log
+  - [ ] Donation
+  - [ ] ShipOrder
+    - Name
+    - Type
+    - Cost
+    - (..?..)
+  - [ ] Player
+    - Discord ID
+    - Discord Name
+- [ ] Hookup Models/Repositories/Factories
