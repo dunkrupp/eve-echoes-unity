@@ -4,15 +4,16 @@ import {Client, Intents, Interaction} from 'discord.js'
 import {SlashCommandBuilder} from '@discordjs/builders'
 import {REST} from '@discordjs/rest'
 import {Routes} from 'discord-api-types/v10'
+import DonationService from "./Core/Services/DonationService";
+import ShipOrderService from "./Core/Services/ShipOrderService";
+import PingService from "./Core/Services/PingService";
 
 // ======================================================================
 // ==                              Setup                               ==
 // ======================================================================
-
-// Retrieve .env
 const config = new Config().get()
 
-// Move
+// @todo: move
 if (config.TOKEN == null) {
   throw Error('TOKEN is missing in .env')
 }
@@ -33,6 +34,10 @@ const client = new Client(
 
 // Channel Service @todo: move
 const channelService = new ChannelService(client)
+const donationService = new DonationService()
+const pingService = new PingService()
+const shipOrderService = new ShipOrderService()
+
 
 // @todo: Get Commands
 const commands = [
@@ -41,6 +46,10 @@ const commands = [
   new SlashCommandBuilder().setName('ship-order').setDescription('Order your ship from the corporation'),
 ].map(command => command.toJSON());
 
+
+// ======================================================================
+// ==                           Initialize                             ==
+// ======================================================================
 const rest = new REST({ version: '9' }).setToken(config.TOKEN)
 
 rest.put(Routes.applicationGuildCommands(config.APP_ID, config.GUILD_ID), { body: commands })
@@ -63,30 +72,34 @@ client.on('ready', () => {
     '|___| \\_/ \\___|      |___|\\__||_||_|\\___/\\___|/__/\n'
   console.log(hello)
 
-  client.user.setActivity('Assimilating')
+  client.user.setActivity('Assimilating', { type: 4 })
 
   void client.application.commands.set(commands);
 })
 
+// @todo: move to MessageHandler
 client.on('messageCreate', message => {
   console.log(`[message log] ${message.content}`)
 })
 
+// @todo: move to InteractionHandler
 client.on('interactionCreate', async (interaction: Interaction) => {
   if (!interaction.isCommand()) return;
 
   const { commandName } = interaction;
 
-  console.log(interaction)
-
   if (commandName === 'ping') {
-    await interaction.reply('Pong!')
+    await interaction.reply(pingService.display())
   }
   if (commandName === 'donate') {
-    await interaction.reply('Donate your ore!')
+    await interaction.reply(
+      donationService.prompt()
+    )
   }
   if (commandName === 'ship-order') {
-    await interaction.reply('Ship Order stuff!')
+    await interaction.reply(
+      shipOrderService.prompt()
+    )
   }
 });
 
