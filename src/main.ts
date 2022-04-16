@@ -7,6 +7,7 @@ import {Routes} from 'discord-api-types/v10'
 import DonationService from "./Core/Services/DonationService";
 import ShipOrderService from "./Core/Services/ShipOrderService";
 import PingService from "./Core/Services/PingService";
+import HelpService from "./Core/Services/HelpService";
 
 // ======================================================================
 // ==                              Setup                               ==
@@ -37,11 +38,13 @@ const channelService = new ChannelService(client)
 const donationService = new DonationService()
 const pingService = new PingService()
 const shipOrderService = new ShipOrderService()
+const helpService = new HelpService()
 
 
 // @todo: Get Commands
 const commands = [
   new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'),
+  new SlashCommandBuilder().setName('help').setDescription('Display help menu'),
   new SlashCommandBuilder().setName('donate').setDescription('Material(s) donation for the corporation'),
   new SlashCommandBuilder().setName('ship-order').setDescription('Order your ship from the corporation'),
 ].map(command => command.toJSON());
@@ -99,6 +102,11 @@ client.on('interactionCreate', async (interaction: Interaction) => {
   if (commandName === 'ship-order') {
     await interaction.reply(
       shipOrderService.prompt()
+    )
+  }
+  if (commandName === 'help') {
+    await interaction.reply(
+      helpService.display()
     )
   }
 });
