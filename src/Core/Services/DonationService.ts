@@ -10,7 +10,7 @@ class DonationService {
   }
 
   public prompt(): Payload {
-    const content = 'Would what you like to do?'
+    const content = 'Would what you like to donate?'
     const select = new MessageActionRow()
       .addComponents(
         new MessageSelectMenu()
@@ -18,24 +18,24 @@ class DonationService {
           .setPlaceholder('..')
           .addOptions([
             {
-              label: 'Donate Ore',
+              label: 'Raw ore',
               description: 'Donate raw ores',
-              value: 'ore',
+              value: 'raw-ore',
             },
             {
-              label: 'Donate Reprocessed Ore',
+              label: 'Reprocessed Ore',
               description: 'Donate reprocessed ores',
-              value: 'ore',
+              value: 'reprocessed-ore',
             },
             {
-              label: 'Donate PI',
+              label: 'Planetary Materials',
               description: 'Donate planetary materials',
               value: 'planetary-materials',
             }
           ]),
       );
 
-    return { content: content, embed: [], ephemeral: false, components: [select] }
+    return { content: content, components: [select] }
   }
 
   public search() {
