@@ -23,9 +23,9 @@ class DonationService {
               value: 'raw-ore',
             },
             {
-              label: 'Reprocessed Ore',
-              description: 'Donate reprocessed ores',
-              value: 'reprocessed-ore',
+              label: 'Minerals',
+              description: 'Donate minerals',
+              value: 'minerals',
             },
             {
               label: 'Planetary Materials',
