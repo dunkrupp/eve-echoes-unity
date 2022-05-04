@@ -5,7 +5,7 @@ import {SlashCommandBuilder} from '@discordjs/builders'
 import {REST} from '@discordjs/rest'
 import {Routes} from 'discord-api-types/v10'
 import DonationService from "./Core/Services/DonationService";
-import ShipOrderService from "./Core/Services/ShipOrderService";
+import ShipyardService from "./Core/Services/ShipyardService";
 import PingService from "./Core/Services/PingService";
 import HelpService from "./Core/Services/HelpService";
 
@@ -33,11 +33,11 @@ const client = new Client(
   }
 )
 
-// Channel Service @todo: move
+// @todo: move
 const channelService = new ChannelService(client)
 const donationService = new DonationService()
 const pingService = new PingService()
-const shipOrderService = new ShipOrderService()
+const shipyardService = new ShipyardService()
 const helpService = new HelpService()
 
 
@@ -46,7 +46,43 @@ const commands = [
   new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'),
   new SlashCommandBuilder().setName('help').setDescription('Display help menu'),
   new SlashCommandBuilder().setName('donate').setDescription('Material(s) donation for the corporation'),
-  new SlashCommandBuilder().setName('ship-order').setDescription('Order your ship from the corporation'),
+  new SlashCommandBuilder()
+    .setName('shipyard').setDescription('Information and Ordering')
+    .addSubcommand(subcommand =>
+      subcommand
+        .setName('order')
+        .setDescription('Place an order')
+        .addStringOption(option =>
+          option.setName('ship')
+            .setDescription('The ship we are looking to order. Minimum 3 characters.')
+            .setRequired(true)
+            .setAutocomplete(true)
+        )
+        .addNumberOption(option =>
+          option.setName('quantity')
+            .setDescription('Enter a number')
+            .addChoice('1', 1)
+            .addChoice('2', 2)
+            .addChoice('3', 3)
+            .addChoice('4', 4)
+            .addChoice('5', 5)
+            .addChoice('6', 6)
+            .setMinValue(1)
+            .setMaxValue(6)
+            .setRequired(true)
+        )
+    )
+    .addSubcommand(subcommand =>
+      subcommand
+        .setName('info')
+        .setDescription('Ship information')
+        .addStringOption(option =>
+          option.setName('ship')
+            .setDescription('The ship we are querying information for.')
+            .setRequired(true)
+            .setAutocomplete(true)
+        )
+    )
 ].map(command => command.toJSON());
 
 
@@ -87,28 +123,58 @@ client.on('messageCreate', message => {
 
 // @todo: move to InteractionHandler
 client.on('interactionCreate', async (interaction: Interaction) => {
-  if (!interaction.isCommand()) return;
+  // DONATION SELECT MENU PROCESSING
+  if (interaction.isSelectMenu()) {
+    if (interaction.values.includes('ores')
+      || interaction.values.includes('minerals')
+      || interaction.values.includes('planetary-materials')
+    ) {
+      await interaction.update(
+        donationService.processSelect(interaction)
+      )
+    }
+  }
 
-  const { commandName } = interaction;
+  if (interaction.isAutocomplete()) {
+    await interaction.respond(
+      shipyardService.shipAutoComplete(interaction)
+    )
+  }
 
-  if (commandName === 'ping') {
-    await interaction.reply(pingService.display())
+  if (interaction.isButton()) {
+    if (interaction.customId === 'shipyard-order-verify-yes') {
+      shipyardService.purchaseOrderAccept(interaction)
+    }
+    if (interaction.customId === 'shipyard-order-verify-no') {
+      shipyardService.purchaseOrderReject(interaction)
+    }
   }
-  if (commandName === 'donate') {
-    await interaction.reply(
-      donationService.prompt()
-    )
+
+  // SLASH COMMAND PROCESSING
+  if (interaction.isCommand()) {
+    const { commandName } = interaction;
+
+    if (commandName === 'ping') {
+      await interaction.reply(pingService.display())
+    }
+    if (commandName === 'donate') {
+      await interaction.reply(
+        donationService.prompt()
+      )
+    }
+    if (commandName === 'shipyard') {
+      await interaction.reply(
+        shipyardService.shipVerification(interaction)
+      )
+    }
+    if (commandName === 'help') {
+      await interaction.reply(
+        helpService.display()
+      )
+    }
   }
-  if (commandName === 'ship-order') {
-    await interaction.reply(
-      shipOrderService.prompt()
-    )
-  }
-  if (commandName === 'help') {
-    await interaction.reply(
-      helpService.display()
-    )
-  }
+
+  return
 });
 
 
@@ -117,5 +183,5 @@ client.on('interactionCreate', async (interaction: Interaction) => {
 // ======================================================================
 void client.login(config.TOKEN)
   .catch(() => {
-    throw new Error('Could not login to Discord.  Please double check your token.')
+    throw new Error('Could not login to Discord.  Please check your token.')
   })
