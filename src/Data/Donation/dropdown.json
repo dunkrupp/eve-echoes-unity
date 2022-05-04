@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Ores",
+    "description": "Donate raw ores",
+    "value": "ores"
+  },
+  {
+    "label": "Minerals",
+    "description": "Donate minerals",
+    "value": "minerals"
+  },
+  {
+    "label": "Planetary Materials",
+    "description": "Donate planetary materials",
+    "value": "planetary-materials"
+  }
+]

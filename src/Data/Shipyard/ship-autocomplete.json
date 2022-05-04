@@ -1,0 +1,1070 @@
+[
+  {
+    "name": "Abaddon",
+    "value": "Abaddon"
+  },
+  {
+    "name": "Algos",
+    "value": "Algos"
+  },
+  {
+    "name": "Algos Assault",
+    "value": "Algos Assault"
+  },
+  {
+    "name": "Algos Commnd",
+    "value": "Algos Commnd"
+  },
+  {
+    "name": "Algos II Assault",
+    "value": "Algos II Assault"
+  },
+  {
+    "name": "Algos Sniper",
+    "value": "Algos Sniper"
+  },
+  {
+    "name": "Apocalypse",
+    "value": "Apocalypse"
+  },
+  {
+    "name": "Apocalypse Striker",
+    "value": "Apocalypse Striker"
+  },
+  {
+    "name": "Arbitrator",
+    "value": "Arbitrator"
+  },
+  {
+    "name": "Arbitrator Covert Ops",
+    "value": "Arbitrator Covert Ops"
+  },
+  {
+    "name": "Arbitrator II Covert Ops",
+    "value": "Arbitrator II Covert Ops"
+  },
+  {
+    "name": "Arbitrator III Covert Ops",
+    "value": "Arbitrator III Covert Ops"
+  },
+  {
+    "name": "Arbitrator Interdictor",
+    "value": "Arbitrator Interdictor"
+  },
+  {
+    "name": "Armageddon",
+    "value": "Armageddon"
+  },
+  {
+    "name": "Armageddon II",
+    "value": "Armageddon II"
+  },
+  {
+    "name": "Ashimmu",
+    "value": "Ashimmu"
+  },
+  {
+    "name": "Astero",
+    "value": "Astero"
+  },
+  {
+    "name": "Atron II",
+    "value": "Atron II"
+  },
+  {
+    "name": "Atron II Interceptor",
+    "value": "Atron II Interceptor"
+  },
+  {
+    "name": "Atron Interceptor",
+    "value": "Atron Interceptor"
+  },
+  {
+    "name": "Augoror",
+    "value": "Augoror"
+  },
+  {
+    "name": "Augoror II",
+    "value": "Augoror II"
+  },
+  {
+    "name": "Badger",
+    "value": "Badger"
+  },
+  {
+    "name": "Badger II",
+    "value": "Badger II"
+  },
+  {
+    "name": "Bantam",
+    "value": "Bantam"
+  },
+  {
+    "name": "Bantam II",
+    "value": "Bantam II"
+  },
+  {
+    "name": "Barghest",
+    "value": "Barghest"
+  },
+  {
+    "name": "Bellicose",
+    "value": "Bellicose"
+  },
+  {
+    "name": "Bellicose Covert Ops",
+    "value": "Bellicose Covert Ops"
+  },
+  {
+    "name": "Bellicose II Covert Ops",
+    "value": "Bellicose II Covert Ops"
+  },
+  {
+    "name": "Bellicose III Covert Ops",
+    "value": "Bellicose III Covert Ops"
+  },
+  {
+    "name": "Bellicose Interdictor",
+    "value": "Bellicose Interdictor"
+  },
+  {
+    "name": "Bestower",
+    "value": "Bestower"
+  },
+  {
+    "name": "Bhaalgorn",
+    "value": "Bhaalgorn"
+  },
+  {
+    "name": "Blackbird",
+    "value": "Blackbird"
+  },
+  {
+    "name": "Blackbird Covert Ops",
+    "value": "Blackbird Covert Ops"
+  },
+  {
+    "name": "Blackbird II Covert Ops",
+    "value": "Blackbird II Covert Ops"
+  },
+  {
+    "name": "Blackbird III Covert Ops",
+    "value": "Blackbird III Covert Ops"
+  },
+  {
+    "name": "Blackbird Interdictor",
+    "value": "Blackbird Interdictor"
+  },
+  {
+    "name": "Breacher Assault",
+    "value": "Breacher Assault"
+  },
+  {
+    "name": "Brutix",
+    "value": "Brutix"
+  },
+  {
+    "name": "Brutix Guardian",
+    "value": "Brutix Guardian"
+  },
+  {
+    "name": "Brutix Logistics",
+    "value": "Brutix Logistics"
+  },
+  {
+    "name": "Burst",
+    "value": "Burst"
+  },
+  {
+    "name": "Burst II",
+    "value": "Burst II"
+  },
+  {
+    "name": "Caracal",
+    "value": "Caracal"
+  },
+  {
+    "name": "Caracal II",
+    "value": "Caracal II"
+  },
+  {
+    "name": "Caracal Navy Issue",
+    "value": "Caracal Navy Issue"
+  },
+  {
+    "name": "Caracal Sniper",
+    "value": "Caracal Sniper"
+  },
+  {
+    "name": "Catalyst Guardian",
+    "value": "Catalyst Guardian"
+  },
+  {
+    "name": "Catalyst II",
+    "value": "Catalyst II"
+  },
+  {
+    "name": "Catalyst II Interdictor",
+    "value": "Catalyst II Interdictor"
+  },
+  {
+    "name": "Catalyst III Interdictor",
+    "value": "Catalyst III Interdictor"
+  },
+  {
+    "name": "Catalyst Interdictor",
+    "value": "Catalyst Interdictor"
+  },
+  {
+    "name": "Catalyst Navy Issue",
+    "value": "Catalyst Navy Issue"
+  },
+  {
+    "name": "Celestis",
+    "value": "Celestis"
+  },
+  {
+    "name": "Celestis Covert Ops",
+    "value": "Celestis Covert Ops"
+  },
+  {
+    "name": "Celestis II Covert Ops",
+    "value": "Celestis II Covert Ops"
+  },
+  {
+    "name": "Celestis III Covert Ops",
+    "value": "Celestis III Covert Ops"
+  },
+  {
+    "name": "Celestis Interdictor",
+    "value": "Celestis Interdictor"
+  },
+  {
+    "name": "Charon",
+    "value": "Charon"
+  },
+  {
+    "name": "Coercer Guardian",
+    "value": "Coercer Guardian"
+  },
+  {
+    "name": "Coercer II",
+    "value": "Coercer II"
+  },
+  {
+    "name": "Coercer II Interdictor",
+    "value": "Coercer II Interdictor"
+  },
+  {
+    "name": "Coercer III Interdictor",
+    "value": "Coercer III Interdictor"
+  },
+  {
+    "name": "Coercer Interdictor",
+    "value": "Coercer Interdictor"
+  },
+  {
+    "name": "Coercer Navy Issue",
+    "value": "Coercer Navy Issue"
+  },
+  {
+    "name": "Condor II",
+    "value": "Condor II"
+  },
+  {
+    "name": "Condor II Interceptor",
+    "value": "Condor II Interceptor"
+  },
+  {
+    "name": "Condor Interceptor",
+    "value": "Condor Interceptor"
+  },
+  {
+    "name": "Corax",
+    "value": "Corax"
+  },
+  {
+    "name": "Corax Assault",
+    "value": "Corax Assault"
+  },
+  {
+    "name": "Corax Command",
+    "value": "Corax Command"
+  },
+  {
+    "name": "Corax II Assault",
+    "value": "Corax II Assault"
+  },
+  {
+    "name": "Corax Sniper",
+    "value": "Corax Sniper"
+  },
+  {
+    "name": "Cormorant Guardian",
+    "value": "Cormorant Guardian"
+  },
+  {
+    "name": "Cormorant II",
+    "value": "Cormorant II"
+  },
+  {
+    "name": "Cormorant II Interdicto",
+    "value": "Cormorant II Interdicto"
+  },
+  {
+    "name": "Cormorant III Interdictor",
+    "value": "Cormorant III Interdictor"
+  },
+  {
+    "name": "Cormorant Interdictor",
+    "value": "Cormorant Interdictor"
+  },
+  {
+    "name": "Cormorant Navy Issue",
+    "value": "Cormorant Navy Issue"
+  },
+  {
+    "name": "Covetor",
+    "value": "Covetor"
+  },
+  {
+    "name": "Covetor II",
+    "value": "Covetor II"
+  },
+  {
+    "name": "Crucifier",
+    "value": "Crucifier"
+  },
+  {
+    "name": "Cruor",
+    "value": "Cruor"
+  },
+  {
+    "name": "Cyclone",
+    "value": "Cyclone"
+  },
+  {
+    "name": "Cyclone Command",
+    "value": "Cyclone Command"
+  },
+  {
+    "name": "Cyclone Guardian",
+    "value": "Cyclone Guardian"
+  },
+  {
+    "name": "Cyclone II Command",
+    "value": "Cyclone II Command"
+  },
+  {
+    "name": "Cynabal",
+    "value": "Cynabal"
+  },
+  {
+    "name": "Daredevil",
+    "value": "Daredevil"
+  },
+  {
+    "name": "Dominix",
+    "value": "Dominix"
+  },
+  {
+    "name": "Dominix II",
+    "value": "Dominix II"
+  },
+  {
+    "name": "Dragoon",
+    "value": "Dragoon"
+  },
+  {
+    "name": "Dragoon Assault",
+    "value": "Dragoon Assault"
+  },
+  {
+    "name": "Dragoon Command",
+    "value": "Dragoon Command"
+  },
+  {
+    "name": "Dragoon II Assault",
+    "value": "Dragoon II Assault"
+  },
+  {
+    "name": "Dragoon Sniper",
+    "value": "Dragoon Sniper"
+  },
+  {
+    "name": "Drake",
+    "value": "Drake"
+  },
+  {
+    "name": "Drake Guardian",
+    "value": "Drake Guardian"
+  },
+  {
+    "name": "Drake Logistics",
+    "value": "Drake Logistics"
+  },
+  {
+    "name": "Dramiel",
+    "value": "Dramiel"
+  },
+  {
+    "name": "Executioner II",
+    "value": "Executioner II"
+  },
+  {
+    "name": "Executioner II Interceptor",
+    "value": "Executioner II Interceptor"
+  },
+  {
+    "name": "Executioner Interceptor",
+    "value": "Executioner Interceptor"
+  },
+  {
+    "name": "Exequror",
+    "value": "Exequror"
+  },
+  {
+    "name": "Exequror II",
+    "value": "Exequror II"
+  },
+  {
+    "name": "Fenrir",
+    "value": "Fenrir"
+  },
+  {
+    "name": "Ferox",
+    "value": "Ferox"
+  },
+  {
+    "name": "Ferox Command",
+    "value": "Ferox Command"
+  },
+  {
+    "name": "Ferox Guardian",
+    "value": "Ferox Guardian"
+  },
+  {
+    "name": "Ferox II Command",
+    "value": "Ferox II Command"
+  },
+  {
+    "name": "Garmur",
+    "value": "Garmur"
+  },
+  {
+    "name": "Gila",
+    "value": "Gila"
+  },
+  {
+    "name": "Griffin",
+    "value": "Griffin"
+  },
+  {
+    "name": "Harbinger",
+    "value": "Harbinger"
+  },
+  {
+    "name": "Harbinger Guardian",
+    "value": "Harbinger Guardian"
+  },
+  {
+    "name": "Harbinger Logistics",
+    "value": "Harbinger Logistics"
+  },
+  {
+    "name": "Harbinger Prototype",
+    "value": "Harbinger Prototype"
+  },
+  {
+    "name": "Heron Covert Ops",
+    "value": "Heron Covert Ops"
+  },
+  {
+    "name": "Heron Explorer",
+    "value": "Heron Explorer"
+  },
+  {
+    "name": "Hound",
+    "value": "Hound"
+  },
+  {
+    "name": "Hound II",
+    "value": "Hound II"
+  },
+  {
+    "name": "Hound III",
+    "value": "Hound III"
+  },
+  {
+    "name": "Humpback Combat",
+    "value": "Humpback Combat"
+  },
+  {
+    "name": "Humpback Hauling",
+    "value": "Humpback Hauling"
+  },
+  {
+    "name": "Humpback High Mobility",
+    "value": "Humpback High Mobility"
+  },
+  {
+    "name": "Hurricane",
+    "value": "Hurricane"
+  },
+  {
+    "name": "Hurricane Guardian",
+    "value": "Hurricane Guardian"
+  },
+  {
+    "name": "Hurricane Logistics",
+    "value": "Hurricane Logistics"
+  },
+  {
+    "name": "Hurricane Prototype",
+    "value": "Hurricane Prototype"
+  },
+  {
+    "name": "Hyperion",
+    "value": "Hyperion"
+  },
+  {
+    "name": "Imicus Covert Ops",
+    "value": "Imicus Covert Ops"
+  },
+  {
+    "name": "Imicus Explorer",
+    "value": "Imicus Explorer"
+  },
+  {
+    "name": "Imicus High Mobility",
+    "value": "Imicus High Mobility"
+  },
+  {
+    "name": "Incursus Assault",
+    "value": "Incursus Assault"
+  },
+  {
+    "name": "Inquisitor",
+    "value": "Inquisitor"
+  },
+  {
+    "name": "Inquisitor II",
+    "value": "Inquisitor II"
+  },
+  {
+    "name": "Kryos",
+    "value": "Kryos"
+  },
+  {
+    "name": "Machariel",
+    "value": "Machariel"
+  },
+  {
+    "name": "Maelstrom",
+    "value": "Maelstrom"
+  },
+  {
+    "name": "Maelstrom Striker",
+    "value": "Maelstrom Striker"
+  },
+  {
+    "name": "Magnate Covert Ops",
+    "value": "Magnate Covert Ops"
+  },
+  {
+    "name": "Magnate Explorer",
+    "value": "Magnate Explorer"
+  },
+  {
+    "name": "Maller",
+    "value": "Maller"
+  },
+  {
+    "name": "Maller Guardian",
+    "value": "Maller Guardian"
+  },
+  {
+    "name": "Maller II Guardian",
+    "value": "Maller II Guardian"
+  },
+  {
+    "name": "Maller Interdictor",
+    "value": "Maller Interdictor"
+  },
+  {
+    "name": "Mammoth",
+    "value": "Mammoth"
+  },
+  {
+    "name": "Maniticore III",
+    "value": "Maniticore III"
+  },
+  {
+    "name": "Manticore",
+    "value": "Manticore"
+  },
+  {
+    "name": "Manticore II",
+    "value": "Manticore II"
+  },
+  {
+    "name": "Maulus",
+    "value": "Maulus"
+  },
+  {
+    "name": "Megathron",
+    "value": "Megathron"
+  },
+  {
+    "name": "Megathron Striker",
+    "value": "Megathron Striker"
+  },
+  {
+    "name": "Merlin Assault",
+    "value": "Merlin Assault"
+  },
+  {
+    "name": "Moa",
+    "value": "Moa"
+  },
+  {
+    "name": "Moa Guardian",
+    "value": "Moa Guardian"
+  },
+  {
+    "name": "Moa II Guardian",
+    "value": "Moa II Guardian"
+  },
+  {
+    "name": "Moa Interdictor",
+    "value": "Moa Interdictor"
+  },
+  {
+    "name": "Mymidon II Command",
+    "value": "Mymidon II Command"
+  },
+  {
+    "name": "Myrmidon",
+    "value": "Myrmidon"
+  },
+  {
+    "name": "Myrmidon Command",
+    "value": "Myrmidon Command"
+  },
+  {
+    "name": "Myrmidon Guardian",
+    "value": "Myrmidon Guardian"
+  },
+  {
+    "name": "Naga",
+    "value": "Naga"
+  },
+  {
+    "name": "Naga II",
+    "value": "Naga II"
+  },
+  {
+    "name": "Naga III",
+    "value": "Naga III"
+  },
+  {
+    "name": "Navitas",
+    "value": "Navitas"
+  },
+  {
+    "name": "Navitas II",
+    "value": "Navitas II"
+  },
+  {
+    "name": "Nemesis",
+    "value": "Nemesis"
+  },
+  {
+    "name": "Nemesis II",
+    "value": "Nemesis II"
+  },
+  {
+    "name": "Nemesis III",
+    "value": "Nemesis III"
+  },
+  {
+    "name": "Nereus",
+    "value": "Nereus"
+  },
+  {
+    "name": "Nereus Combat",
+    "value": "Nereus Combat"
+  },
+  {
+    "name": "Nereus Hauling",
+    "value": "Nereus Hauling"
+  },
+  {
+    "name": "Nereus High Mobility",
+    "value": "Nereus High Mobility"
+  },
+  {
+    "name": "Nereus II",
+    "value": "Nereus II"
+  },
+  {
+    "name": "Nestor",
+    "value": "Nestor"
+  },
+  {
+    "name": "Nightmare",
+    "value": "Nightmare"
+  },
+  {
+    "name": "Obelisk",
+    "value": "Obelisk"
+  },
+  {
+    "name": "Omen",
+    "value": "Omen"
+  },
+  {
+    "name": "Omen II",
+    "value": "Omen II"
+  },
+  {
+    "name": "Omen Navy Issue",
+    "value": "Omen Navy Issue"
+  },
+  {
+    "name": "Omen Sniper",
+    "value": "Omen Sniper"
+  },
+  {
+    "name": "Oracle",
+    "value": "Oracle"
+  },
+  {
+    "name": "Oracle II",
+    "value": "Oracle II"
+  },
+  {
+    "name": "Oracle III",
+    "value": "Oracle III"
+  },
+  {
+    "name": "Orthrus",
+    "value": "Orthrus"
+  },
+  {
+    "name": "Osprey",
+    "value": "Osprey"
+  },
+  {
+    "name": "Osprey II",
+    "value": "Osprey II"
+  },
+  {
+    "name": "Phantasm",
+    "value": "Phantasm"
+  },
+  {
+    "name": "Probe Covert Ops",
+    "value": "Probe Covert Ops"
+  },
+  {
+    "name": "Probe Explorer",
+    "value": "Probe Explorer"
+  },
+  {
+    "name": "Procurer",
+    "value": "Procurer"
+  },
+  {
+    "name": "Prophecy",
+    "value": "Prophecy"
+  },
+  {
+    "name": "Prophecy Command",
+    "value": "Prophecy Command"
+  },
+  {
+    "name": "Prophecy Guardian",
+    "value": "Prophecy Guardian"
+  },
+  {
+    "name": "Prophecy II Command",
+    "value": "Prophecy II Command"
+  },
+  {
+    "name": "Providence",
+    "value": "Providence"
+  },
+  {
+    "name": "Punisher Assault",
+    "value": "Punisher Assault"
+  },
+  {
+    "name": "Purifier",
+    "value": "Purifier"
+  },
+  {
+    "name": "Purifier II",
+    "value": "Purifier II"
+  },
+  {
+    "name": "Purifier III",
+    "value": "Purifier III"
+  },
+  {
+    "name": "Rattlesnake",
+    "value": "Rattlesnake"
+  },
+  {
+    "name": "Raven",
+    "value": "Raven"
+  },
+  {
+    "name": "Raven Striker",
+    "value": "Raven Striker"
+  },
+  {
+    "name": "Retriever",
+    "value": "Retriever"
+  },
+  {
+    "name": "Rokh",
+    "value": "Rokh"
+  },
+  {
+    "name": "Rupture",
+    "value": "Rupture"
+  },
+  {
+    "name": "Rupture Guardian",
+    "value": "Rupture Guardian"
+  },
+  {
+    "name": "Rupture II Guardian",
+    "value": "Rupture II Guardian"
+  },
+  {
+    "name": "Rupture Interdictor",
+    "value": "Rupture Interdictor"
+  },
+  {
+    "name": "Scorpion",
+    "value": "Scorpion"
+  },
+  {
+    "name": "Scorpion II",
+    "value": "Scorpion II"
+  },
+  {
+    "name": "Scythe",
+    "value": "Scythe"
+  },
+  {
+    "name": "Scythe II",
+    "value": "Scythe II"
+  },
+  {
+    "name": "Sigil",
+    "value": "Sigil"
+  },
+  {
+    "name": "Sigil II",
+    "value": "Sigil II"
+  },
+  {
+    "name": "Slasher II",
+    "value": "Slasher II"
+  },
+  {
+    "name": "Slasher II Interceptor",
+    "value": "Slasher II Interceptor"
+  },
+  {
+    "name": "Slasher Interceptor",
+    "value": "Slasher Interceptor"
+  },
+  {
+    "name": "Stabber",
+    "value": "Stabber"
+  },
+  {
+    "name": "Stabber Fleet Issue",
+    "value": "Stabber Fleet Issue"
+  },
+  {
+    "name": "Stabber II",
+    "value": "Stabber II"
+  },
+  {
+    "name": "Stabber Sniper",
+    "value": "Stabber Sniper"
+  },
+  {
+    "name": "Stratios",
+    "value": "Stratios"
+  },
+  {
+    "name": "Succubus",
+    "value": "Succubus"
+  },
+  {
+    "name": "Talos",
+    "value": "Talos"
+  },
+  {
+    "name": "Talos II",
+    "value": "Talos II"
+  },
+  {
+    "name": "Talos III",
+    "value": "Talos III"
+  },
+  {
+    "name": "Talwar",
+    "value": "Talwar"
+  },
+  {
+    "name": "Talwar Assault",
+    "value": "Talwar Assault"
+  },
+  {
+    "name": "Talwar Command",
+    "value": "Talwar Command"
+  },
+  {
+    "name": "Talwar II Assault",
+    "value": "Talwar II Assault"
+  },
+  {
+    "name": "Talwar Sniper",
+    "value": "Talwar Sniper"
+  },
+  {
+    "name": "Tayra",
+    "value": "Tayra"
+  },
+  {
+    "name": "Tempest",
+    "value": "Tempest"
+  },
+  {
+    "name": "Thorax",
+    "value": "Thorax"
+  },
+  {
+    "name": "Thorax Guardian",
+    "value": "Thorax Guardian"
+  },
+  {
+    "name": "Thorax II Guardian",
+    "value": "Thorax II Guardian"
+  },
+  {
+    "name": "Thorax Interdictor",
+    "value": "Thorax Interdictor"
+  },
+  {
+    "name": "Thorax Prototype",
+    "value": "Thorax Prototype"
+  },
+  {
+    "name": "Thrasher Fleet Issue",
+    "value": "Thrasher Fleet Issue"
+  },
+  {
+    "name": "Thrasher Guardian",
+    "value": "Thrasher Guardian"
+  },
+  {
+    "name": "Thrasher II",
+    "value": "Thrasher II"
+  },
+  {
+    "name": "Thrasher II Interdictor",
+    "value": "Thrasher II Interdictor"
+  },
+  {
+    "name": "Thrasher III Interdictor",
+    "value": "Thrasher III Interdictor"
+  },
+  {
+    "name": "Thrasher Interdictor",
+    "value": "Thrasher Interdictor"
+  },
+  {
+    "name": "Tornado",
+    "value": "Tornado"
+  },
+  {
+    "name": "Tornado II",
+    "value": "Tornado II"
+  },
+  {
+    "name": "Tornado III",
+    "value": "Tornado III"
+  },
+  {
+    "name": "Typhoon",
+    "value": "Typhoon"
+  },
+  {
+    "name": "Typhoon II",
+    "value": "Typhoon II"
+  },
+  {
+    "name": "Venture",
+    "value": "Venture"
+  },
+  {
+    "name": "Venture II",
+    "value": "Venture II"
+  },
+  {
+    "name": "Venture III",
+    "value": "Venture III"
+  },
+  {
+    "name": "Venture IV",
+    "value": "Venture IV"
+  },
+  {
+    "name": "Vexor",
+    "value": "Vexor"
+  },
+  {
+    "name": "Vexor II",
+    "value": "Vexor II"
+  },
+  {
+    "name": "Vexor Navy Issue",
+    "value": "Vexor Navy Issue"
+  },
+  {
+    "name": "Vexor Sniper",
+    "value": "Vexor Sniper"
+  },
+  {
+    "name": "Vigil",
+    "value": "Vigil"
+  },
+  {
+    "name": "Vigilant",
+    "value": "Vigilant"
+  },
+  {
+    "name": "Vindicator",
+    "value": "Vindicator"
+  },
+  {
+    "name": "Worm",
+    "value": "Worm"
+  },
+  {
+    "name": "Wreathe",
+    "value": "Wreathe"
+  },
+  {
+    "name": "Wreathe II",
+    "value": "Wreathe II"
+  }
+]
